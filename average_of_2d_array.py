@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 
-# Created by: Andrew_Ten-Den
+# Created by: Dahrio Francois
 # Created on: June 2022
 # This program uses a 2D array to find the average
 
@@ -8,7 +8,7 @@ import random
 
 
 def sum_of_numbers(passed_in_2D_list):
-    # this function averages all the elements in  a 2D array
+    # this function averages all the elements in a 2D array
 
     average = 0
     for row_value in passed_in_2D_list:
@@ -38,8 +38,8 @@ def main():
 
     sum = sum_of_numbers(a_2d_list)
     average = sum / (rows * columns)
-    print("The average of all the numbers is: {0} ".format(average))
-    print("Done")
+    print("\nThe average of all the numbers is: {0} ".format(average))
+    print("\nDone")
 
 
 if __name__ == "__main__":
